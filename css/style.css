@@ -1,0 +1,194 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  margin: 0%;
+  padding: 0%;
+}
+.fav-conteiner {
+  display: flex;
+  justify-content: center;
+}
+
+.titulo {
+  color: white;
+  font-size: 40px;
+    margin-top: 16px;
+    margin-left: 430px;
+    text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  min-width: 100px;
+}
+
+h1 {
+  text-align: center;
+}
+h3 {
+  color: #ffffff;
+}
+
+.tipos {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+  gap:30px;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+.plano {
+  background-color: rgb(212, 204, 204);
+  border-radius: 10px;
+  padding: 0px;
+  height: 250px;
+  width: 320px;
+  overflow: hidden;
+  margin-bottom: auto;
+  box-shadow: 10px;
+}
+
+.memorias .mapa {
+  width: 350px
+}
+
+.nome-rua {
+  width: 100%;
+  margin: 0px;
+  padding: 8px;
+  height: 90px;
+  background-color: #343638;
+  
+}
+
+h4 {
+    justify-content: left;
+    color: white;
+    padding-top: 0px;
+    padding-left: 10px;
+    text-align: left;
+}
+.textoajuda {
+  height: 35px;
+  width: 35px;
+  padding-left: 10px;
+  padding-top: 35px;
+  color:#ffffff;
+}
+.menu {
+  height: 27px;
+  width: 15px;
+  padding-left: 200px;
+  padding-top: 25px;
+}
+
+.ladinho {
+  display: flex;
+  justify-content: left;
+  gap: 10px;
+}
+
+.semaforo {
+  height: 50px;
+  width: 30px;
+  padding-left: 0px;
+  margin-top: 12px;
+}
+
+.modoclaro {
+  height: 35px;
+  width: 38px;
+  padding-left: 270px;
+  padding-top: 25px;
+}
+
+.textobarra {
+  text-align: center;
+  color:#ffffff;
+  text-size-adjust: 30px;
+  padding-top: 15px;
+}
+
+.account {
+  height: 50px;
+  width: 70px;
+  padding-left: 15px;
+  padding-right: 80px;
+  padding-top: 19px;
+}
+
+.lupa {
+  height: 20px;
+  width: 20px;
+  padding-top: 15px;
+  overflow: hidden;
+}
+
+.barradepesquisa {
+  align-self: center;
+  display: flex;
+  justify-self: center;
+  gap: 10px;
+  background-color: #313233;
+  border-radius: 20px;
+  height: 45px;
+  width: 400px;
+  padding-left: 20px;
+  justify-items: left;
+}
+.star {
+  width: 0px;
+  height: 40px;
+}
+
+p {
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+
+}
+.container2 {
+  display: flex;
+  flex-direction: row;
+}
+.circle1 {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(255, 0, 0);
+  border-radius: 50%;
+}
+.circle2 {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(30, 255, 0);
+  border-radius: 50%;
+}
+.circle3 {
+  width: 35px;
+  height: 35px;
+  background-color: rgb(255, 234, 0);
+  border-radius: 50%;
+}
+.nome-container {
+display: flex;
+justify-content: space-between;
+}
+.estrela-img {
+  color: white;
+  border-radius: 0px 5px 5px 0px;
+  width: 50px;
+  height: 50px;
+}
+.container-status {
+  display: flex;
+  justify-content: space-between;
+}     /*Mexer nisso se for por o horario*/
+.prox {
+  display: flex;
+  justify-content: center;
+}
